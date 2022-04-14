@@ -1,4 +1,16 @@
-oad = function(){
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+</head>
+<body>
+    <canvas id="stage" width="600" height="600"></canvas>
+    <script type="text/javascript">
+        
+        window.onload = function(){
  
             var stage = document.getElementById('stage');
             var ctx = stage.getContext("2d");
@@ -13,19 +25,7 @@ oad = function(){
             var tp = 30;
             var qp = 20;
             var ax=ay=15;
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo da Cobrinha</title>
-</head>
-<body>
-    <canvas id="stage" width="600" height="600"></canvas>
-    <script type="text/javascript">
-        
-        window.onl
+ 
             var trail = [];
             tail = 5;
  
